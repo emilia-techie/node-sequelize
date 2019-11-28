@@ -1,0 +1,28 @@
+{
+  "name": "taskmanagement",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha 'test/test-pages.js'"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-validator": "^6.2.0",
+    "http-errors": "~1.6.3",
+    "lowdb": "^1.0.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^1.7.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.19.2",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
